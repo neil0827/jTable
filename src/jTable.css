@@ -1,0 +1,272 @@
+@CHARSET "UTF-8";
+
+#jTable-context {
+	
+}
+
+#jTable-above {
+	width: 100%;
+}
+
+#jTable-table {
+	border: solid 2px #ccc;
+	border-spacing: 0;
+	font-family: "Arial", "MingLiu", "Taipei";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	color: #666666;
+	/* width: 100%; */
+	float: right;
+}
+
+#jTable-below {
+	width: 100%;
+}
+
+#jTable-below ul {
+	margin: 5px 2px;
+}
+
+#jTable-context .split {
+	height: 1px;
+}
+
+#jTable-thead tr,#jTable-tbody tr {
+	
+}
+
+#jTable-thead th {
+	height: 37px;
+	width: 100px;
+	text-align: left;
+	white-space: nowrap;
+	border-right: solid 1px #DDDDDD;
+	padding-left: 5px;
+}
+
+#jTable-thead .sortable-col {
+	cursor: pointer;
+}
+
+#jTable-thead .nosortable-col {
+	
+}
+
+.table-col-desc {
+	background-image: url(image/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+.table-col-asc {
+	background-image: url(image/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+#jTable-tbody tr {
+	height: 25px;
+	inline-height: 25px;
+}
+
+#jTable-tbody td {
+	border-right: solid 1px #DDDDDD;
+	padding-left: 5px;
+	padding-right: 4px;
+}
+
+#jTable-tbody .active {
+	cursor:pointer;
+	font-weight:bold;
+}
+
+#jTable-tbody .active:hover {
+	text-decoration:underline;
+}
+
+#jTable-tbody .even-row {
+	background-color: #D8E1DE;
+}
+
+#jTable-tbody .odd-row {
+	background-color: white;
+}
+
+#jTable-above .control {
+	height: 28px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.control_refresh {
+	float: left;
+	height: 28px;
+	background: url("image/bg_04.png") no-repeat;
+	width: 72px;
+	background-position: -500px 0;
+}
+
+.control_refresh .btn {
+	display: inline-block;
+	height: 28px;
+	width: 72px;
+	cursor: pointer;
+}
+
+.control_filter {
+	height: 28px;
+	float: right;
+	margin-right: 30px;
+}
+
+.control_filter .label {
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+.control_filter .select {
+	height: 26px;
+	width: 80px;
+	border-color: #C6C6C6;
+}
+
+.control_search {
+	float: right;
+	padding-right: 10px;
+	height: 26px;
+	background: url("image/bg_04.png") no-repeat -1040px 0;
+	width: 245px;
+	position: relative;
+}
+
+.control_search .select {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 102px;
+	height: 24px;
+	border: none;
+}
+
+.control_search .txt {
+	border: 1px solid;
+	position: absolute;
+	left: 104px;
+	height: 22px;
+	width: 110px;
+	padding-left: 6px;
+	border-color: #C7C7C7;
+}
+
+.control_search .btn {
+	border: none;
+	position: absolute;
+	right: 4px;
+	height: 26px;
+	width: 29px;
+	background: none;
+	cursor: pointer;
+}
+
+#jTable-below ul {
+	float: right;
+}
+
+#jTable-below ul li {
+	display: inline-block;
+}
+
+#jTable-below .icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: url("image/glyphicons-halflings.png")
+}
+
+#jTable-below .download {
+	background-position: -96px -24px;
+	cursor: pointer;
+}
+
+#jTable-below .prepage {
+	cursor: pointer;
+	background-position: -192px -72px;
+}
+
+#jTable-below .nextpage {
+	cursor: pointer;
+	background-position: -384px -72px;
+}
+
+#jTable-below .goto {
+	cursor: pointer;
+	background-position: -144px -144px;
+}
+
+#jTable-below .record {
+	background-position: -360px -48px;
+}
+
+#jTable-below .control {
+	margin-left: 4px;
+	font-family: Arial, "微软雅黑";
+	font-size: 12px;
+}
+
+#jTable-PageNo {
+	width: 30px;
+	height: 14px;
+}
+
+.template {
+	display: none;
+}
+
+.template-main {
+	position: absolute;
+	z-index: 101;
+	left: 450px;
+	top: 300px;
+	background-color: #fff;
+	width: 550px;
+}
+
+.modal-header {
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.modal-header h3 {
+	margin: 0;
+	line-height: 30px;
+}
+
+.modal-header .cloes-btn {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0.2;
+	filter: alpha(opacity =     20);
+}
+
+.template-background {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	width: 1400px;
+	height: 902px;
+	background-color: #1e4237;
+	filter: alpha(opacity =   70);
+	opacity: 0.7;
+}
